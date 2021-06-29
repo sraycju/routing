@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: lightseagreen;
+}
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.div-style{
+      align-items: center;
+      width: 500px;
+      height: 500px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-color: rgba(250, 250, 250, 0.5);
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 15px 1px #3333336b;
+}
+.div-style:hover{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 1px #3333336b;
+}
+.list{
+  list-style-type: none;
+}
+.text{
+  text-align: center;
+  color: #ffffff;
+  margin: 10px;
+}
+.namecard{
+  width: 180px;
+  height: 100px;
+  float: left;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #9d7fe4;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.input {
+  border: 1px solid #333;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 7em;
+}
+
+select {
+  margin-left: .5rem;
+}
+.contents{
+  margin: 150px auto auto auto;
+}
